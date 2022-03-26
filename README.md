@@ -1,2 +1,3 @@
-# Firefox-Template
-Firefox 拡張機能のテンプレート
+# BrowserBackBoard
+
+タブレット用のブラウザバック・タブ間移動支援拡張機能。

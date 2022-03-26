@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Firefox-Template",
+  "name": "BrowserBackBoard",
   "version": "0.0.1",
 
-  "description": "",
-  "homepage_url": "https://github.com/OkanoShinri/Firefox-Template",
+  "description": "An extension for Firefox on tablets to help you browser back and navigate between tabs. ",
+  "homepage_url": "https://github.com/OkanoShinri/BrowserBackBoard",
   "icons": {
     "48": "icons/48.png",
     "96": "icons/96.png"
@@ -14,13 +14,12 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": []
+      "js": ["src/content_scripts/content.js"]
     }
   ],
   "browser_action": {
     "default_icon": "icons/32.png",
-    "default_title": "Firefox-Template",
-    "default_popup": "src/popup/popup.html"
+    "default_title": "BrowserBackBoard"
   },
   "options_ui": {
     "page": "src/option/options.html"

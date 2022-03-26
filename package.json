@@ -1,7 +1,7 @@
 {
-  "name": "firefox-template",
+  "name": "browser-back-board",
   "version": "0.0.1",
-  "description": "",
+  "description": "An extension for Firefox on tablets to help you browser back and navigate between tabs. ",
   "main": "manifest.json",
   "scripts": {
     "build": "web-ext build --overwrite-dest",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OkanoShinri/Firefox-Template.git"
+    "url": "git+https://github.com/OkanoShinri/BrowserBackBoard.git"
   },
   "author": "OkanoShinri",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OkanoShinri/Firefox-Template/issues"
+    "url": "https://github.com/OkanoShinri/BrowserBackBoard/issues"
   },
-  "homepage": "https://github.com/OkanoShinri/Firefox-Template#readme",
+  "homepage": "https://github.com/OkanoShinri/BrowserBackBoard#readme",
   "devDependencies": {
     "eslint": "^8.11.0",
     "web-ext": "^6.7.0"
